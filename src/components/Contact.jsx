@@ -2,8 +2,8 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div name='contact' className='w-full h-screen bg-slate-900 p-4'>
-        <div className='flex flex-col p-4 justify-center max-w-7xl mx-auto h-full'>
+    <div name='contact' className='w-full h-screen bg-slate-900 p-4 '>
+        <div className='flex flex-col p-4 justify-center max-w-7xl mx-auto md:h-screen max-h-fit'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200 px-1 py-1 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white hover:rounded-lg duration-200'>Contact</p>
                 <p className='py-6 text-md text-slate-400'>Submit the form below if you would like to get in touch with me</p>
