@@ -1,5 +1,4 @@
 import React from 'react'
-import arrayDestruct from "../assets/portfolio/gis.jpeg";
 import halton from "../assets/portfolio/haltonregion.jpg";
 import calc from "../assets/portfolio/calc.png";
 import etch from "../assets/portfolio/etch.jpg";
