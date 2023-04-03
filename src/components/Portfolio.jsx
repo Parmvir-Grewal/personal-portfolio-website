@@ -1,6 +1,13 @@
 import React from 'react'
 import arrayDestruct from "../assets/portfolio/gis.jpeg";
 import halton from "../assets/portfolio/haltonregion.jpg";
+import calc from "../assets/portfolio/calc.png";
+import etch from "../assets/portfolio/etch.jpg";
+import library from "../assets/portfolio/library.png";
+import rps from "../assets/portfolio/rps.jpg";
+import aq from "../assets/portfolio/aq.jpg";
+import bc from "../assets/portfolio/bc.jpg";
+import terminal from "../assets/portfolio/terminal.png";
 import { HiArrowRight } from "react-icons/hi";
 
 
@@ -16,27 +23,59 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: arrayDestruct
+            src: aq,
+            title:'Spatial Data Science II',
+            description:'Led a group research project investigating air quality across 5 US states, collecting and analyzing data from over 1,000 air quality monitoring stations.',
+            href:"https://parmvirgrewal-calculator.netlify.app/"
         },
         {
             id: 3,
-            src: arrayDestruct
+            src: bc,
+            title:'GIS and Population Health',
+            description:'Spearheaded independent research on hospital accessibility in northern British Columbia, utilizing geospatial tools, route files, network data sets, and census data to develop a comprehensive understanding of the regions healthcare access challenges.',
+            href:"https://parmvirgrewal-calculator.netlify.app/"
         },
         {
             id: 4,
-            src: arrayDestruct
+            src: terminal,
+            title:'Software Tools and Systems Programming',
+            description:'Designed a fully functional shell in C, including dynamic memory allocation for variable storage and error handling and incorporated advanced features such as recursive file traversal, background processing, and multi-connection server capabilities.',
+            href:"https://parmvirgrewal-calculator.netlify.app/"
         },
         {
             id: 5,
-            src: arrayDestruct
+            src: calc,
+            title:'Calculator',
+            description:'Calculator coded using purely HTML, CSS and JavaScript',
+            href:"https://parmvirgrewal-calculator.netlify.app/"
         },
         {
             id: 6,
-            src: arrayDestruct
+            src: etch,
+            title:'Etch A Sketch',
+            description:'Etch A Sketch coded using purely HTML, CSS and JavaScript',
+            href:"https://parmvirgrewal-ethc-a-sketch.netlify.app/"
+        },
+        {
+            id: 7,
+            src: library,
+            title:'Library',
+            description:'Library to keep track of all the books you have read, coded using purely HTML, CSS and JavaScript',
+            href:"https://parmvirgrewal-library.netlify.app/"
+            
+        },
+        {
+            id: 7,
+            src: rps,
+            title:'rps',
+            description:'Basic Rock Paper Scissor gaming, coded using purely HTML, CSS and JavaScript',
+            href:"https://parmvirgrewal-rps.netlify.app/"
+
+            
         },
     ]
   return (
-    <div name="portfolio" className="bg-slate-900 w-full md:h-screen max-h-fit">
+    <div name="portfolio" className="bg-slate-900 w-full max-h-fit">
         <div className="max-w-7xl p-4 mx-auto flex flex-col justify-center w-full h-full">
             <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200 px-1 py-1 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white hover:rounded-lg duration-200">Portfolio</p>
