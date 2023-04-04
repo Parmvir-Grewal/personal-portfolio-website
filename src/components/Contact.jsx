@@ -10,9 +10,9 @@ function Contact() {
             </div>
             <div className='flex justify-center items-center'>
                 <form action="https://getform.io/f/a956fcc9-3aa4-476e-a3cc-60d257c73ab2" method="POST" className='flex flex-col w-full md:w-1/2'>
-                    <input type="text" name='email' placeholder='Enter your email' className='border text-white text-md rounded-lg p-4 bg-slate-800 border-slate-700 placeholder-slate-400'/>
-                    <input type="text" name='name' placeholder='Enter your name' className='my-4 border text-white text-md rounded-lg p-4 bg-slate-800 border-slate-700 placeholder-slate-400'/>
-                    <textarea name="message" rows="10" placeholder='Enter your message' className='border v text-md rounded-lg p-4 bg-slate-800 border-slate-700 placeholder-slate-400'></textarea>
+                    <input type="text" name='email' placeholder='Enter your email' required className='border text-white text-md rounded-lg p-4 bg-slate-800 border-slate-700 placeholder-slate-400'/>
+                    <input type="text" name='name' placeholder='Enter your name' required className='my-4 border text-white text-md rounded-lg p-4 bg-slate-800 border-slate-700 placeholder-slate-400'/>
+                    <textarea name="message" rows="10" placeholder='Enter your message' required className='border v text-md rounded-lg p-4 bg-slate-800 border-slate-700 placeholder-slate-400'></textarea>
                     <button className='text-white bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-3 my-5 mx-auto flex items-center rounded-md hover:scale-105 duration-200'>Submit</button>
                 </form>
             </div>
