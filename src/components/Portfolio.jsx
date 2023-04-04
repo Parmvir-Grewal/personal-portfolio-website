@@ -84,7 +84,7 @@ const Portfolio = () => {
 
             {
                 portfolios.map(({id, src, title, description, href}) => (
-                    <div key={id} class="max-w-sm border border-slate-700 rounded-lg shadow bg-slate-800 hover:scale-105 duration-200">
+                    <div key={id} class="max-w-sm border border-slate-700 rounded-lg shadow bg-slate-800 hover:scale-105 duration-200 relative">
                    
                         <img class="rounded-t-lg" src={src} alt="" />
                    
@@ -92,9 +92,9 @@ const Portfolio = () => {
                         
                             <h5 class="mb-2 text-2xl font-bold tracking-tight  text-slate-200">{title}</h5>
                    
-                        <p class="mb-3 font-normal  text-gray-400">{description}</p>
+                        <p class="mb-10 font-normal  text-gray-400">{description}</p>
                         <a href={href} target='_blank' 
-                rel="noreferrer" download={true} class="group inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+                rel="noreferrer" download={true} class="group inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer absolute bottom-0 mb-3">
                             View Project
                             <HiArrowRight size={15} className='ml-1 group-hover:rotate-90 duration-200'/>
                         </a>
