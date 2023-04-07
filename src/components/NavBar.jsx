@@ -32,7 +32,7 @@ const NavBar = () => {
   ];
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-slate-900 fixed z-10 ">
-        <div data-aos="zoom-in">
+        <div data-aos="fade-up">
             <img src={logo} alt="" width='47px' className="rounded-md"  />
         </div>
         <ul className="hidden md:flex">
