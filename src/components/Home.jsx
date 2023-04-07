@@ -12,7 +12,7 @@ const Home = () => {
         <div className='max-w-screen-2xl mx-auto flex flex-col items-center
          justify-center h-full px-4 md:flex-row' >
             <div className='flex flex-col justify-center items-center h-full w-5/6'>
-            <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 text-center py-3 max-w-lg text-3xl' data-aos='fade-up'>Hi, my name is</p>
+            <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 text-center py-3 max-w-lg sm:text-3xl text-2xl' data-aos='fade-up'>Hi, my name is</p>
                 <h2 className='text-slate-300 text-4xl sm:text-7xl font-bold' data-aos='fade-up'>
                 Parmvir Grewal
                 </h2>
