@@ -37,10 +37,10 @@ const NavBar = () => {
         </div>
         <ul className="hidden md:flex">
           {links.map(({id, link})=> (
-            <li key={id} className=" cursor-pointer capitalize font-medium text-slate-400"> <Link to={link} smooth duration={500} className='px-4 py-3 mx-2 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-lg hover:scale-105 duration-200' data-aos="zoom-in">{link}</Link></li>
+            <li key={id} className=" cursor-pointer capitalize font-medium text-slate-400"> <Link to={link} smooth duration={500} className='px-4 py-3 mx-2 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-lg hover:scale-105 duration-200' data-aos="fade-up">{link}</Link></li>
           ))}
         </ul>
-        <div onClick={() => setNav(!nav)} className="px-4 cursor-pointer py-3 z-10 text-slate-400 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-lg hover:scale-105 duration-200 md:hidden">
+        <div onClick={() => setNav(!nav)} className="px-4 cursor-pointer py-3 z-10 text-slate-400 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-lg hover:scale-105 duration-200 md:hidden" data-aos="fade-up">
           {nav ? <FaTimes size={30} /> : <FaBars size={30} /> }
         </div>
 
