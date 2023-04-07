@@ -2,9 +2,11 @@ import React from 'react'
 import {FaGithub, FaLinkedin} from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const SocialLinks = () => {
-
+    AOS.init();
     const links = [
         {
             id: 1,
@@ -51,7 +53,7 @@ const SocialLinks = () => {
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
         <ul>
             {links.map(({id, child, href, style, download}) => (
-                <li key={id} className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] ${style} hover:rounded-md duration-300 hover:bg-gradient-to-r from-cyan-500 to-blue-500 bg-slate-700`}>
+                <li key={id} className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] ${style} hover:rounded-md duration-300 hover:bg-gradient-to-r from-cyan-500 to-blue-500 bg-slate-700`} data-aos="fade-right">
                 <a href={href} 
                 className="flex justify-between items-center w-full text-slate-100" 
                 download={download} 

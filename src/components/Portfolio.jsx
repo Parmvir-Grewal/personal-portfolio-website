@@ -8,10 +8,11 @@ import aq from "../assets/portfolio/aq.jpg";
 import bc from "../assets/portfolio/bc.jpg";
 import terminal from "../assets/portfolio/terminal.png";
 import { HiArrowRight } from "react-icons/hi";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Portfolio = () => {
-
+    AOS.init();
     const portfolios = [
         {
             id: 1,
@@ -74,8 +75,8 @@ const Portfolio = () => {
         },
     ]
   return (
-    <div name="portfolio" className="bg-slate-900 w-full max-h-fit">
-        <div className="max-w-7xl p-4 mx-auto flex flex-col justify-center w-full h-full">
+    <div name="portfolio" className="bg-slate-900 w-full ">
+        <div className="max-w-7xl p-4 mx-auto flex flex-col justify-center w-full">
             <div className="pb-8">
                 <p className="text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200 px-1 py-1 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white hover:rounded-lg duration-200">Portfolio</p>
                 <p className='py-6 text-md text-slate-400'>Check out on some my projects I've worked on</p>
@@ -84,7 +85,7 @@ const Portfolio = () => {
 
             {
                 portfolios.map(({id, src, title, description, href}) => (
-                    <div key={id} class="max-w-sm border border-slate-700 rounded-lg shadow bg-slate-800 hover:scale-105 duration-200 relative">
+                    <div key={id} class="max-w-sm border border-slate-700 rounded-lg shadow bg-slate-800 hover:scale-105 duration-200 relative" data-aos='fade-up'>
                    
                         <img class="rounded-t-lg" src={src} alt="" />
                    

@@ -11,8 +11,11 @@ import erdas from "../assets/erdas.png";
 import arcgispro from "../assets/arcgispro.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Experience() {
+  AOS.init();
     const techs = [
         {
             id: 1,
@@ -89,8 +92,8 @@ function Experience() {
       ];
   return (
     <div name='experience' className='bg-slate-900 w-full'>
-        <div className='max-w-7xl mx-auto p-4 flex flex-col justify-center w-full md:h-screen max-h-fit'>
-            <div>
+        <div className='max-w-7xl mx-auto p-4 flex flex-col justify-center w-full '>
+            <div className='mt-20'>
                 <p className='text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200 px-1 py-1 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white hover:rounded-lg duration-200'>Experience</p>
                 <p className='py-6 text-md text-slate-400'>Prominent coding languages and softwares I've worked with</p>
             </div>
@@ -98,7 +101,7 @@ function Experience() {
             {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`border-4 hover:scale-105 duration-200 py-3 rounded-lg ${style}`}
+              className={`border-4 hover:scale-105 duration-200 py-3 rounded-lg ${style}`} data-aos='fade-up'
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4 text-slate-200">{title}</p>
