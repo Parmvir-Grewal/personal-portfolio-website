@@ -1,4 +1,4 @@
-# My Personal Portfolio Website
+# My Personal Website
 This is my personal portfolio website that showcases my web development projects and skills. The website is built using React, HTML, CSS, and JavaScript, and is designed to be mobile-responsive and easy to navigate.
 
 ## Features
