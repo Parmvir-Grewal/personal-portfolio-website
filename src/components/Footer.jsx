@@ -29,7 +29,7 @@ function Footer() {
     
     <footer class="p-4 shadow   bg-slate-900 border-t-2 border-slate-800" >
     
-    <div class="px-4 py-1 flex items-center justify-between" data-aos="fade-up" >
+    <div class="px-4 py-1 flex items-center justify-between">
         <span class="text-md text-slate-500 sm:text-center" >© 2023 Parmvir Grewal. All Rights Reserved.
         </span>
         <div class="flex sm:justify-center">
