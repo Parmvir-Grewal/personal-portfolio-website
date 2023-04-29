@@ -3,7 +3,6 @@ import halton from "../assets/portfolio/haltonregion.jpg";
 import calc from "../assets/portfolio/calc.png";
 import etch from "../assets/portfolio/etch.jpg";
 import library from "../assets/portfolio/library.png";
-import rps from "../assets/portfolio/rps.jpg";
 import aq from "../assets/portfolio/aq.jpg";
 import bc from "../assets/portfolio/bc.jpg";
 import terminal from "../assets/portfolio/terminal.png";
