@@ -16,63 +16,54 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: halton,
-            title:'GIS and Remote Sensing Integration Project',
-            description:'Conducted a comprehensive group research project on the impact of urban sprawl on Halton Regions demographics and physical environment.',
-            href:"/GISandRemoteSensingIntegrationProject.zip"
+            src: aq,
+            title:'Air Quality Research Project',
+            description:'This is a research project investigating air quality across 5 US states, collecting and analyzing data from over 1,000 air quality monitoring stations. The project was led by me and my team, and involved advanced spatial analysis using IDW Interpolation, Kriging, Cluster Analysis, Empirical Variograms, and the Skater Algorithms on 2013 US EPA air pollution data to identify significant factors impacting ozone formation.',
+            href:"https://github.com/Parmvir-Grewal/air-quality-research-project"
         },
         {
             id: 2,
-            src: aq,
-            title:'Spatial Data Science II',
-            description:'Led a group research project investigating air quality across 5 US states, collecting and analyzing data from over 1,000 air quality monitoring stations.',
-            href:"https://parmvirgrewal-calculator.netlify.app/"
+            src: halton,
+            title:'Urban Sprawl Research Project',
+            description:'A research project on the impact of urban sprawl on Halton Regions demographics and physical environment, which was overseen by me. Our project utilized a multi-faceted approach, combining satellite imagery, spatial and non-spatial data, and advanced analytical tools to develop a detailed understanding of the effects of urban sprawl.',
+            href:"https://github.com/Parmvir-Grewal/urban-sprawl-research-project"
         },
         {
             id: 3,
             src: bc,
-            title:'GIS and Population Health',
-            description:'Spearheaded independent research on hospital accessibility in northern British Columbia, utilizing geospatial tools, route files, network data sets, and census data to develop a comprehensive understanding of the regions healthcare access challenges.',
-            href:"https://parmvirgrewal-calculator.netlify.app/"
+            title:'Hospital Accessibility Research Project',
+            description:'A look at hospital accessibility in northern British Columbia, which utilized geospatial tools, route files, network data sets, and census data to develop a comprehensive understanding of the regions healthcare access challenges. The project was led by me and aimed to identify areas of the region with the greatest unmet healthcare needs, in order to push for the development of new healthcare facilities.',
+            href:"https://github.com/Parmvir-Grewal/hospital-accessibility-research-project"
         },
         {
             id: 4,
             src: terminal,
-            title:'Software Tools and Systems Programming',
-            description:'Designed a fully functional shell in C, including dynamic memory allocation for variable storage and error handling and incorporated advanced features such as recursive file traversal, background processing, and multi-connection server capabilities.',
-            href:"https://parmvirgrewal-calculator.netlify.app/"
+            title:'Fully Functional Shell in C',
+            description:'This is a fully functional shell implemented in C, with a wide range of features and functionalities. It includes dynamic memory allocation for variable storage and error handling, as well as advanced features such as recursive file traversal, background processing, and multi-connection server capabilities.',
+            href:"https://github.com/Parmvir-Grewal/linux-shell"
         },
         {
             id: 5,
             src: calc,
             title:'Calculator',
-            description:'Calculator coded using purely HTML, CSS and JavaScript',
-            href:"https://parmvirgrewal-calculator.netlify.app/"
+            description:'Replica of Apples Calculator app, created using HTML, CSS, and JavaScript. The project was inspired by Apples sleek and minimalist design, and involved recreating the apps functionality and user interface.',
+            href:"https://github.com/Parmvir-Grewal/calculator"
         },
         {
             id: 6,
             src: etch,
             title:'Etch A Sketch',
-            description:'Etch A Sketch coded using purely HTML, CSS and JavaScript',
-            href:"https://parmvirgrewal-ethc-a-sketch.netlify.app/"
+            description:'This is a digital version of the classic Etch-A-Sketch toy, created using HTML, CSS, and JavaScript. The project was inspired by the fun and nostalgia of the original toy, and involved recreating its unique drawing mechanism and user interface.',
+            href:"https://github.com/Parmvir-Grewal/etch-a-sketch"
         },
         {
             id: 7,
             src: library,
             title:'Library',
-            description:'Library to keep track of all the books you have read, coded using purely HTML, CSS and JavaScript',
-            href:"https://parmvirgrewal-library.netlify.app/"
+            description:'This is a book tracker web application created using HTML, CSS, and JavaScript. The project allows you to track the books in your library, recording important information such as the books title, author, number of pages, and whether or not you have read the book.',
+            href:"https://github.com/Parmvir-Grewal/library"
             
-        },
-        {
-            id: 7,
-            src: rps,
-            title:'rps',
-            description:'Basic Rock Paper Scissor gaming, coded using purely HTML, CSS and JavaScript',
-            href:"https://parmvirgrewal-rps.netlify.app/"
-
-            
-        },
+        }
     ]
   return (
     <div name="portfolio" className="bg-slate-900 w-full ">
