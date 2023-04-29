@@ -97,11 +97,11 @@ function Experience() {
                 <p className='text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200 px-1 py-1 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white hover:rounded-lg duration-200'>Experience</p>
                 <p className='py-6 text-md text-slate-400'>Prominent coding languages and softwares I've worked with</p>
             </div>
-            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0' data-aos='fade-up'>
             {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`border-4 hover:scale-105 duration-200 py-3 rounded-lg ${style}`} data-aos='fade-up'
+              className={`border-4 hover:scale-105 duration-200 py-3 rounded-lg ${style}`} 
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4 text-slate-200">{title}</p>
