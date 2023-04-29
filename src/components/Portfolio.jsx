@@ -39,34 +39,27 @@ const Portfolio = () => {
         {
             id: 4,
             src: terminal,
-            title:'Fully Functional Shell in C',
+            title:'Fully Functional Linux Shell',
             description:'This is a fully functional shell implemented in C, with a wide range of features and functionalities. It includes dynamic memory allocation for variable storage and error handling, as well as advanced features such as recursive file traversal, background processing, and multi-connection server capabilities.',
             href:"https://github.com/Parmvir-Grewal/linux-shell"
         },
         {
             id: 5,
+            src: chess,
+            title:' Chess',
+            description:'This is a Java implementation of the classic game of chess, coded entirely by me. The game has a graphical user interface (GUI) and allows two players to play against each other, on the same computer.',
+            href:"https://github.com/Parmvir-Grewal/chess-game"
+            
+        },
+        {
+            id: 6,
             src: calc,
             title:'Calculator',
             description:'Replica of Apples Calculator app, created using HTML, CSS, and JavaScript. The project was inspired by Apples sleek and minimalist design, and involved recreating the apps functionality and user interface.',
             href:"https://github.com/Parmvir-Grewal/calculator"
         },
         {
-            id: 6,
-            src: etch,
-            title:'Etch A Sketch',
-            description:'This is a digital version of the classic Etch-A-Sketch toy, created using HTML, CSS, and JavaScript. The project was inspired by the fun and nostalgia of the original toy, and involved recreating its unique drawing mechanism and user interface.',
-            href:"https://github.com/Parmvir-Grewal/etch-a-sketch"
-        },
-        {
             id: 7,
-            src: library,
-            title:'Library',
-            description:'This is a book tracker web application created using HTML, CSS, and JavaScript. The project allows you to track the books in your library, recording important information such as the books title, author, number of pages, and whether or not you have read the book.',
-            href:"https://github.com/Parmvir-Grewal/library"
-            
-        },
-        {
-            id: 8,
             src: paint,
             title:'Paint',
             description:'This is a basic paint program that was created as a simplified version of Microsoft Paint. It is designed to be easy to use and to provide the basic functionality that most users would need for simple image editing.',
@@ -74,13 +67,20 @@ const Portfolio = () => {
             
         },
         {
+            id: 8,
+            src: etch,
+            title:'Etch A Sketch',
+            description:'This is a digital version of the classic Etch-A-Sketch toy, created using HTML, CSS, and JavaScript. The project was inspired by the fun and nostalgia of the original toy, and involved recreating its unique drawing mechanism and user interface.',
+            href:"https://github.com/Parmvir-Grewal/etch-a-sketch"
+        },
+        {
             id: 9,
-            src: chess,
-            title:' Chess',
-            description:'This is a Java implementation of the classic game of chess, coded entirely by me. The game has a graphical user interface (GUI) and allows two players to play against each other, on the same computer.',
-            href:"https://github.com/Parmvir-Grewal/chess-game"
+            src: library,
+            title:'Library',
+            description:'This is a book tracker web application created using HTML, CSS, and JavaScript. The project allows you to track the books in your library, recording important information such as the books title, author, number of pages, and whether or not you have read the book.',
+            href:"https://github.com/Parmvir-Grewal/library"
             
-        }
+        }  
     ]
   return (
     <div name="portfolio" className="bg-slate-900 w-full ">
