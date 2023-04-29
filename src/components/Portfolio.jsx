@@ -5,6 +5,8 @@ import etch from "../assets/portfolio/etch.jpg";
 import library from "../assets/portfolio/library.png";
 import aq from "../assets/portfolio/aq.jpg";
 import bc from "../assets/portfolio/bc.jpg";
+import paint from "../assets/portfolio/paint.png";
+import chess from "../assets/portfolio/chess.png";
 import terminal from "../assets/portfolio/terminal.png";
 import { HiArrowRight } from "react-icons/hi";
 import AOS from 'aos';
@@ -61,6 +63,22 @@ const Portfolio = () => {
             title:'Library',
             description:'This is a book tracker web application created using HTML, CSS, and JavaScript. The project allows you to track the books in your library, recording important information such as the books title, author, number of pages, and whether or not you have read the book.',
             href:"https://github.com/Parmvir-Grewal/library"
+            
+        },
+        {
+            id: 8,
+            src: paint,
+            title:'Paint',
+            description:'This is a basic paint program that was created as a simplified version of Microsoft Paint. It is designed to be easy to use and to provide the basic functionality that most users would need for simple image editing.',
+            href:"https://github.com/Parmvir-Grewal/paint"
+            
+        },
+        {
+            id: 9,
+            src: chess,
+            title:' Chess',
+            description:'This is a Java implementation of the classic game of chess, coded entirely by me. The game has a graphical user interface (GUI) and allows two players to play against each other, on the same computer.',
+            href:"https://github.com/Parmvir-Grewal/chess-game"
             
         }
     ]
