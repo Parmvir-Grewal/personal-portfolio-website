@@ -4,7 +4,7 @@ import {AiOutlineCloudDownload} from 'react-icons/ai';
 
 function Header() {
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-slate-900">
+    <div name="header" className="flex justify-between items-center w-full h-20 px-4 text-white bg-slate-900">
     <div data-aos="fade-up">
         <img src={logo} alt="" width='50px'  />
     </div>

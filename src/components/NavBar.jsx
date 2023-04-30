@@ -11,7 +11,7 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "header",
       child: (
         <>
             <AiOutlineHome size={30}/> <span className="hidden md:block pl-4" >Home</span>
