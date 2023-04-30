@@ -103,7 +103,7 @@ const Portfolio = () => {
                    
                         <p class="mb-12 font-normal  text-slate-400">{description}</p>
                         <a href={href} target='_blank' 
-                rel="noreferrer" download={true} class="group  bg-slate-800 backdrop-blur-md bg-slate-800/60 inline-flex items-center p-3 text-sm font-medium text-center text-slate-300 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-3xl hover:scale-105 duration-200  cursor-pointer absolute bottom-3 left-16">
+                rel="noreferrer" download={true} class="group  bg-slate-800 backdrop-blur-md bg-slate-800/60 inline-flex items-center p-3 text-sm font-medium text-center text-slate-300 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-3xl hover:scale-105 duration-200  cursor-pointer absolute bottom-3">
                             View Project
                             <TbView360 size={19} className='ml-1 group-hover:rotate-90 duration-200'/>
                         </a>
