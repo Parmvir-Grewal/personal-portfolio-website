@@ -35,7 +35,7 @@ function Footer() {
         <div class="flex sm:justify-center">
         {links.map(({id, child, href, download}) => (
         <a key={id} href={href} 
-                className="flex justify-between items-center text-slate-500 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-lg hover:scale-105 duration-200 p-2 mx-2" 
+                className="flex justify-between items-center text-slate-500 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-3xl hover:scale-105 duration-200 p-2 mx-2 z-10" 
                 download={download} 
                 target='_blank' 
                 rel="noreferrer"
