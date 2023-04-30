@@ -11,7 +11,7 @@ const Home = () => {
     <div name="home" className='h-screen w-full bg-slate-900 text-white'>
         <div className='max-w-screen-2xl mx-auto flex flex-col items-center
          justify-center h-full px-4 md:flex-row' data-aos='fade-up'>
-            <div className='flex flex-col justify-center items-center h-full w-5/6'>
+            <div className='flex flex-col justify-center items-center h-full w-5/6 mb-20'>
             <p className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 text-center py-3 max-w-lg sm:text-3xl text-2xl' >Hi, my name is</p>
                 <h2 className='text-slate-300 text-4xl sm:text-7xl font-bold' >
                 Parmvir Grewal
