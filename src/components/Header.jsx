@@ -16,7 +16,7 @@ function Header() {
                 download={true}
                 target='_blank' 
                 rel="noreferrer">
-                    <span className="hidden md:block pr-2">Resume/CV</span> <AiOutlineCloudDownload size={25}/>
+                    <span className="pr-2">Resume/CV</span> <AiOutlineCloudDownload size={25}/>
                 </a>
                 </li>
                 </div>
