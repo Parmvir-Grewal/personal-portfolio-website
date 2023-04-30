@@ -9,4 +9,7 @@
   html {
     font-family: 'Raleway', sans-serif;
   }
+  body {
+    background-color: rgb(15 23 42);
+  }
 }
