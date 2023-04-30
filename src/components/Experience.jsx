@@ -21,73 +21,61 @@ function Experience() {
             id: 1,
             src: python,
             title: "Python",
-            style: "border-blue-900",
         },
         {
             id: 2,
             src: java,
             title: "Java",
-            style: "border-red-700",
         },
         {
             id: 3,
             src: c,
             title: "C",
-            style: "border-blue-700",
         },
         {
           id: 4,
           src: html,
           title: "HTML",
-          style: "border-orange-500",
         },
         {
           id: 5,
           src: css,
           title: "CSS",
-          style: "border-sky-600",
         },
         {
           id: 6,
           src: javascript,
           title: "JavaScript",
-          style: "border-yellow-500",
         },
         {
           id: 7,
           src: reactImage,
           title: "React",
-          style: "border-cyan-500",
         },
         {
           id: 8,
           src: tailwind,
           title: "Tailwind",
-          style: "border-cyan-700",
         },
         {
           id: 9,
           src: github,
           title: "GitHub",
-          style: "border-gray-400",
         },
         {
             id: 10,
             src: arcgis,
             title: "ArcGIS",
-            style: "border-green-600",
           },
           {
             id: 11,
             src: arcgispro,
             title: "ArcGIS Pro",
-            style: "border-blue-500",
           },
           {
             id: 12,
             src: erdas,
             title: "ERDAS Imagine",
-            style: "border-orange-400",
           },
       ];
   return (
@@ -101,7 +89,7 @@ function Experience() {
             {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`bg-slate-800 backdrop-blur-md bg-slate-800/30 border-4 hover:scale-105 duration-200 py-3 rounded-lg ${style}`} 
+              className='bg-slate-800 backdrop-blur-md bg-slate-800/30 hover:scale-105 duration-200 py-3 rounded-lg'
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4 text-slate-400 font-semibold">{title}</p>
