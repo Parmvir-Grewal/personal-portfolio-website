@@ -60,7 +60,7 @@ const NavBar = () => {
       <div className="flex justify-center items-center h-20 mb-5 mx-auto text-white bg-slate-800 backdrop-blur-md bg-slate-800/60 z-10 rounded-3xl w-fit">
       <ul className="flex mx-2" data-aos='fade-up' data-aos-anchor="#home">
           {links.map(({id, link, child, name})=> (
-            <li key={id} className=" cursor-pointer text-slate-400"> <Link to={link} smooth duration={500} className="flex justify-between items-center text-slate-300 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-lg hover:scale-105 duration-200 p-3 mx-2">{child}{name}</Link></li>
+            <li key={id} className=" cursor-pointer text-slate-400"> <Link to={link} smooth duration={500} className="flex justify-between items-center text-slate-300 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-3xl hover:scale-105 duration-200 p-3 mx-2">{child}{name}</Link></li>
           ))}
         </ul>
       </div>
