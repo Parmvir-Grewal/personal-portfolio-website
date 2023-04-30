@@ -1,61 +1,74 @@
-import React, { useState } from "react";
-import {FaBars, FaTimes} from 'react-icons/fa';
+import React from "react";
 import {Link} from 'react-scroll'
-import logo from '../assets/logo1.png'
 import AOS from 'aos';
+import {AiOutlineHome, AiFillFolderOpen, AiFillEdit, AiOutlineAudit, AiOutlineBulb} from 'react-icons/ai';
 import 'aos/dist/aos.css';
+
+
 
 const NavBar = () => {
   AOS.init();
-  const [nav, setNav] = useState(false);
   const links = [
     {
       id: 1,
       link: "home",
+      child: (
+        <>
+            <AiOutlineHome size={30}/> <span className="hidden md:block pl-4" >Home</span>
+        </>
+    ),
     },
     {
       id: 2,
       link: "about",
+      child: (
+        <>
+            <AiOutlineBulb size={30}/><span className="hidden md:block pl-4" >About</span>
+        </>
+    ),
     },
     {
       id: 3,
       link: 'portfolio',
+      child: (
+        <>
+            <AiFillFolderOpen size={30}/><span className="hidden md:block pl-4" >Portfolio</span>
+        </>
+    ),
     },
     {
       id: 4,
       link: "experience",
+      child: (
+        <>
+            <AiFillEdit size={30}/><span className="hidden md:block pl-4" >Experience</span>
+        </>
+    ),
     },
     {
       id: 5,
-      link: "contact",
+      link: 'contact',
+      child: (
+        <>
+            <AiOutlineAudit size={30}/><span className=" hidden md:block pl-4" >Contact</span>
+        </>
+    ),
     },
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-slate-900 fixed z-10 ">
-        <div data-aos="fade-up">
-            <img src={logo} alt="" width='47px' className="rounded-md"  />
-        </div>
-        <ul className="hidden md:flex">
-          {links.map(({id, link})=> (
-            <li key={id} className=" cursor-pointer capitalize font-medium text-slate-400"> <Link to={link} smooth duration={500} className='px-4 py-3 mx-2 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-lg hover:scale-105 duration-200' data-aos="fade-up">{link}</Link></li>
+    <div id="#nav" className="w-full  fixed bottom-0 z-10">
+      <div className="flex justify-center items-center h-20 mb-5 mx-auto text-white bg-slate-800 bg-blur opacity-90 z-10 rounded-3xl w-fit" data-aos='fade-up' data-aos-anchor="#home">
+      <ul className="flex mx-2">
+          {links.map(({id, link, child, name})=> (
+            <li key={id} className=" cursor-pointer text-slate-400"> <Link to={link} smooth duration={500} className="flex justify-between items-center text-slate-500 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-lg hover:scale-105 duration-200 p-3 mx-2">{child}{name}</Link></li>
           ))}
         </ul>
-        <div onClick={() => setNav(!nav)} className="px-4 cursor-pointer py-3 z-10 text-slate-400 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-lg hover:scale-105 duration-200 md:hidden" data-aos="fade-up">
-          {nav ? <FaTimes size={30} /> : <FaBars size={30} /> }
-        </div>
-
-        {nav && (
-          <ul className="flex flex-col
-          justify-center items-center absolute top-0 left-0 w-full h-screen bg-slate-900 text-slate-400">
-           {links.map(({id, link})=> (
-             <li key={id} className="cursor-pointer capitalize py-3 m-4 text-4xl" data-aos="fade-up">
-              <Link onClick={() => setNav(!nav)} to={link} smooth duration={500} className='px-4 py-3 mx-2 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-lg hover:scale-105 duration-200'>{link}</Link>
-              </li>
-           ))}
-         </ul>
-        )}
+      </div>
+      
     </div>
+    
   );
+  
 };
 
 export default NavBar;
