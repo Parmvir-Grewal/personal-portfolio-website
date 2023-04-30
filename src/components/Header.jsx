@@ -9,7 +9,7 @@ function Header() {
     <div data-aos="fade-up">
         <img src={logo} alt="" width='50px' />
     </div>
-    <div className='text-white bg-slate-800 backdrop-blur-md bg-slate-800/60 z-10 rounded-3xl w-fit '> 
+    <div className='text-white bg-slate-800 backdrop-blur-md bg-slate-800/60 z-10 rounded-3xl w-fit' data-aos="fade-up"> 
     <li className='flex w-fit ' >
                 <a href='/Parmvir_Grewal_Resume.pdf'
                 className="flex justify-between items-center w-full text-slate-300 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white  hover:scale-105 duration-200 rounded-3xl py-3 px-4" 
