@@ -86,7 +86,7 @@ const Portfolio = () => {
     <div name="portfolio" className="bg-slate-900 w-full ">
         <div className="max-w-7xl p-4 mx-auto flex flex-col justify-center w-full">
             <div className="pb-8" >
-                <p className="text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200 px-1 py-1 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white hover:rounded-lg duration-200">Portfolio</p>
+                <p className="text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200">Portfolio</p>
                 <p className='py-6 text-md text-slate-400'>Check out on some my projects I've worked on</p>
             </div>
             <div className='grid sm:grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-8 px-12 sm:mb-0 mb-20 sm:px-0' data-aos='fade-up'>
