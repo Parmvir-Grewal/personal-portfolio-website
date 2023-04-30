@@ -101,10 +101,10 @@ function Experience() {
             {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`border-4 hover:scale-105 duration-200 py-3 rounded-lg ${style}`} 
+              className={`bg-slate-800 backdrop-blur-md bg-slate-800/30 border-4 hover:scale-105 duration-200 py-3 rounded-lg ${style}`} 
             >
               <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-4 text-slate-200">{title}</p>
+              <p className="mt-4 text-slate-400 font-semibold">{title}</p>
             </div>
           ))}
                
