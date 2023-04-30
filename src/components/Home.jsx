@@ -29,10 +29,10 @@ const Home = () => {
                 </h2>
                 
                 <div>
-                    <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 duration-200'>
+                    <Link to="portfolio" smooth duration={500} className='group  w-fit px-6 py-3 mt-5 flex items-center bg-slate-800 backdrop-blur-md bg-slate-800/60 text-slate-300 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-3xl cursor-pointer hover:scale-105 duration-200'>
                         Portfolio 
                         <span className='group-hover:rotate-90 duration-200'> 
-                            <HiArrowRight size={20} className='ml-1'/>
+                            <HiArrowRight size={20} className='ml-2'/>
                         </span>
                     </Link>
                 </div>

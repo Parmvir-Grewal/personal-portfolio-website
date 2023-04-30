@@ -89,7 +89,7 @@ function Experience() {
             {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className='bg-slate-800 backdrop-blur-md bg-slate-800/30 hover:scale-105 duration-200 py-3 rounded-lg border border-slate-700 '
+              className='bg-slate-800 backdrop-blur-md bg-slate-800/30  py-3 rounded-lg border border-slate-700 '
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4 text-slate-400 font-semibold">{title}</p>

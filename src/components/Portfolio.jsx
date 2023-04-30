@@ -8,7 +8,7 @@ import bc from "../assets/portfolio/bc.jpg";
 import paint from "../assets/portfolio/paint.png";
 import chess from "../assets/portfolio/chess.png";
 import terminal from "../assets/portfolio/terminal.png";
-import { HiArrowRight } from "react-icons/hi";
+import { TbView360 } from "react-icons/tb";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -93,19 +93,19 @@ const Portfolio = () => {
 
             {
                 portfolios.map(({id, src, title, description, href}) => (
-                    <div key={id} class="max-w-sm border border-slate-700 rounded-lg shadow bg-slate-800 backdrop-blur-md bg-slate-800/60 hover:scale-105 duration-200 relative" >
+                    <div key={id} class="max-w-sm border border-slate-700 rounded-lg shadow bg-slate-800 backdrop-blur-md bg-slate-800/60  relative" >
                    
-                        <img class="rounded-t-lg" src={src} alt="" />
+                        <img class="rounded-t-lg" src={src} alt="" width='px'/>
                    
                     <div class="p-5">
                         
                             <h5 class="mb-2 text-2xl font-bold tracking-tight  text-slate-200">{title}</h5>
                    
-                        <p class="mb-10 font-normal  text-slate-400">{description}</p>
+                        <p class="mb-12 font-normal  text-slate-400">{description}</p>
                         <a href={href} target='_blank' 
-                rel="noreferrer" download={true} class="group inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer absolute bottom-0 mb-3">
+                rel="noreferrer" download={true} class="group  bg-slate-800 backdrop-blur-md bg-slate-800/60 inline-flex items-center p-3 text-sm font-medium text-center text-slate-300 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white rounded-3xl hover:scale-105 duration-200  cursor-pointer absolute bottom-3">
                             View Project
-                            <HiArrowRight size={15} className='ml-1 group-hover:rotate-90 duration-200'/>
+                            <TbView360 size={19} className='ml-1 group-hover:rotate-90 duration-200'/>
                         </a>
                     </div>
                 </div>

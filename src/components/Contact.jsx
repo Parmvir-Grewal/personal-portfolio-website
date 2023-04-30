@@ -16,7 +16,7 @@ function Contact() {
                     <input type="text" name='email' placeholder='Enter your email' required className='border text-white text-md rounded-lg p-4 bg-slate-800 backdrop-blur-md bg-slate-800/30 border-slate-700 placeholder-slate-400' />
                     <input type="text" name='name' placeholder='Enter your name' required className='my-4 border text-white text-md rounded-lg p-4 bg-slate-800 backdrop-blur-md bg-slate-800/30 border-slate-700 placeholder-slate-400' />
                     <textarea name="message" rows="10" placeholder='Enter your message' required className='border v text-md rounded-lg p-4 bg-slate-800 backdrop-blur-md bg-slate-800/30 border-slate-700 placeholder-slate-400' ></textarea>
-                    <button className='text-white bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-3 my-5 mx-auto flex items-center rounded-md hover:scale-105 duration-200' >Submit</button>
+                    <button className='bg-slate-800 backdrop-blur-md bg-slate-800/60 text-slate-300 hover:bg-gradient-to-r from-cyan-500 to-blue-500 hover:text-white  hover:scale-105 duration-200 rounded-3xl mx-auto flex items-center px-4 py-3 m-5' >Submit</button>
                 </form>
             </div>
         </div>
