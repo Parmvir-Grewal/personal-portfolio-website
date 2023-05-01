@@ -8,6 +8,7 @@ import bc from "../assets/portfolio/bc.jpg";
 import paint from "../assets/portfolio/paint.png";
 import chess from "../assets/portfolio/chess.png";
 import terminal from "../assets/portfolio/terminal.png";
+import personal from "../assets/portfolio/personal.png";
 import { TbView360 } from "react-icons/tb";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -19,68 +20,76 @@ const Portfolio = () => {
             id: 1,
             src: aq,
             title:'Air Quality Research Project',
-            description:'This is a research project investigating air quality across 5 US states, collecting and analyzing data from over 1,000 air quality monitoring stations. The project was led by me and my team, and involved advanced spatial analysis using IDW Interpolation, Kriging, Cluster Analysis, Empirical Variograms, and the Skater Algorithms on 2013 US EPA air pollution data to identify significant factors impacting ozone formation.',
+            description:'This is a research project investigating air quality across 5 US states, collecting and analyzing data from over 1,000 air quality monitoring stations.',
             href:"https://github.com/Parmvir-Grewal/air-quality-research-project"
         },
         {
             id: 2,
             src: halton,
             title:'Urban Sprawl Research Project',
-            description:'A research project on the impact of urban sprawl on Halton Regions demographics and physical environment, which was overseen by me. Our project utilized a multi-faceted approach, combining satellite imagery, spatial and non-spatial data, and advanced analytical tools to develop a detailed understanding of the effects of urban sprawl.',
+            description:'A research project on the impact of urban sprawl on Halton Regions demographics and physical environment, which was overseen by me.',
             href:"https://github.com/Parmvir-Grewal/urban-sprawl-research-project"
         },
         {
             id: 3,
             src: bc,
             title:'Hospital Accessibility Research Project',
-            description:'A look at hospital accessibility in northern British Columbia, which utilized geospatial tools, route files, network data sets, and census data to develop a comprehensive understanding of the regions healthcare access challenges. The project was led by me and aimed to identify areas of the region with the greatest unmet healthcare needs, in order to push for the development of new healthcare facilities.',
+            description:'A look at hospital accessibility in northern British Columbia, using GIS to develop a comprehensive understanding of the regions healthcare access challenges.',
             href:"https://github.com/Parmvir-Grewal/hospital-accessibility-research-project"
         },
         {
             id: 4,
             src: terminal,
-            title:'Fully Functional Linux Shell',
-            description:'This is a fully functional shell implemented in C, with a wide range of features and functionalities. It includes dynamic memory allocation for variable storage and error handling, as well as advanced features such as recursive file traversal, background processing, and multi-connection server capabilities.',
+            title:'Linux Shell',
+            description:'This is a fully functional shell implemented in C, with a wide range of features and functionalities. ',
             href:"https://github.com/Parmvir-Grewal/linux-shell"
         },
         {
             id: 5,
+            src: personal,
+            title:'Personal Website',
+            description:'This is my personal portfolio website that showcases my web development projects and skills.',
+            href:"https://github.com/Parmvir-Grewal/personal-website"
+            
+        }, 
+        {
+            id: 6,
             src: chess,
             title:' Chess',
-            description:'This is a Java implementation of the classic game of chess, coded entirely by me. The game has a graphical user interface (GUI) and allows two players to play against each other, on the same computer.',
+            description:'This is a Java implementation of the classic game of chess, coded entirely by me. The game has a graphical user interface (GUI).',
             href:"https://github.com/Parmvir-Grewal/chess-game"
             
         },
         {
-            id: 6,
+            id: 7,
             src: calc,
             title:'Calculator',
-            description:'Replica of Apples Calculator app, created using HTML, CSS, and JavaScript. The project was inspired by Apples sleek and minimalist design, and involved recreating the apps functionality and user interface.',
+            description:'Replica of Apples Calculator app, created using HTML, CSS, and JavaScript.',
             href:"https://github.com/Parmvir-Grewal/calculator"
         },
         {
-            id: 7,
+            id: 8,
             src: paint,
             title:'Paint',
-            description:'This is a basic paint program that was created as a simplified version of Microsoft Paint. It is designed to be easy to use and to provide the basic functionality that most users would need for simple image editing.',
+            description:'This is a basic paint program that was created as a simplified version of Microsoft Paint.',
             href:"https://github.com/Parmvir-Grewal/paint"
             
         },
         {
-            id: 8,
+            id: 9,
             src: etch,
             title:'Etch A Sketch',
-            description:'This is a digital version of the classic Etch-A-Sketch toy, created using HTML, CSS, and JavaScript. The project was inspired by the fun and nostalgia of the original toy, and involved recreating its unique drawing mechanism and user interface.',
+            description:'This is a digital version of the classic Etch-A-Sketch toy, created using HTML, CSS, and JavaScript.',
             href:"https://github.com/Parmvir-Grewal/etch-a-sketch"
         },
         {
-            id: 9,
+            id: 10,
             src: library,
             title:'Library',
-            description:'This is a book tracker web application created using HTML, CSS, and JavaScript. The project allows you to track the books in your library, recording important information such as the books title, author, number of pages, and whether or not you have read the book.',
+            description:'This is a book tracker web application created using HTML, CSS, and JavaScript.',
             href:"https://github.com/Parmvir-Grewal/library"
-            
-        }  
+        },  
+        
     ]
   return (
     <div name="portfolio" className="bg-slate-900 w-full ">
