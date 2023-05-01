@@ -9,7 +9,7 @@ function Contact() {
         <div className='flex flex-col p-4 justify-center max-w-7xl mx-auto mb-16 h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200'>Contact</p>
-                <p className='py-6 text-md text-slate-400'>Submit the form below if you would like to get in touch with me</p>
+                <p className='py-6 text-md text-slate-400'>Submit the form below if you would like to get in touch with me!</p>
             </div>
             <div className='flex justify-center items-center' data-aos='fade-up'>
                 <form action="https://getform.io/f/a956fcc9-3aa4-476e-a3cc-60d257c73ab2" method="POST" className='flex flex-col w-full md:w-1/2'>

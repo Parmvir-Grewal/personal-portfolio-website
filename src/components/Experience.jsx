@@ -83,7 +83,7 @@ function Experience() {
         <div className='max-w-7xl mx-auto p-4 flex flex-col justify-center w-full '>
             <div className='mt-20'>
                 <p className='text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200'>Experience</p>
-                <p className='py-6 text-md text-slate-400'>Prominent coding languages and softwares I've worked with</p>
+                <p className='py-6 text-md text-slate-400'>A showcase of some prominent coding languages and softwares I've worked with!</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0' data-aos='fade-up'>
             {techs.map(({ id, src, title, style }) => (

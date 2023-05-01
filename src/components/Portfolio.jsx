@@ -96,7 +96,7 @@ const Portfolio = () => {
         <div className="max-w-7xl p-4 mx-auto flex flex-col justify-center w-full h-full sm:h-fit">
             <div className="pb-8" >
                 <p className="text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200">Portfolio</p>
-                <p className='py-6 text-md text-slate-400'>Check out on some my projects I've worked on</p>
+                <p className='py-6 text-md text-slate-400'>Check out some of the projects I've worked on!</p>
             </div>
             <div className='grid sm:grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-8 px-12 sm:mb-0 mb-20 sm:px-0 overflow-auto' data-aos='fade-up'>
 
