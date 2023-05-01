@@ -5,8 +5,8 @@ import 'aos/dist/aos.css';
 function Contact() {
     AOS.init();
   return (
-    <div name='contact' className='w-full  bg-slate-900 p-4 '>
-        <div className='flex flex-col p-4 justify-center max-w-7xl mx-auto mb-16'>
+    <div name='contact' className='w-full  bg-slate-900 p-4 h-screen'>
+        <div className='flex flex-col p-4 justify-center max-w-7xl mx-auto mb-16 h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200'>Contact</p>
                 <p className='py-6 text-md text-slate-400'>Submit the form below if you would like to get in touch with me</p>

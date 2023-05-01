@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 const About = () => {
   AOS.init()
   return (
-    <div name="about" className='w-full  bg-slate-900 pb-20 ' >
+    <div id="about" className='w-full  bg-slate-900 pb-20 ' >
         <div className='max-w-7xl p-6  border rounded-lg shadow  bg-slate-800 backdrop-blur-md bg-slate-800/60 border-slate-700 lg:mx-auto flex flex-col mx-5' >
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200'>About</p>
