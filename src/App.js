@@ -49,7 +49,7 @@ function App() {
               size={30}
               color={"#0369a1"}
               loading={loading}
-            />
+              data-aos="zoom-in" />
           </div>
           :
 

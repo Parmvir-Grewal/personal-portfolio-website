@@ -8,7 +8,7 @@ const About = () => {
     <div id="about" className='w-full  bg-slate-900 pb-20 ' >
       <div className='max-w-7xl p-6  border rounded-lg shadow  bg-slate-800 backdrop-blur-md bg-slate-800/60 border-slate-700 lg:mx-auto flex flex-col mx-5' >
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200'>About</p>
+          <p className='text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200' data-aos='fade-up'>About</p>
         </div>
         <p className='text-xl mt-5 text-slate-400 m' data-aos='fade-up'>Results-driven professional with experience in spatial data science, programming, and remote sensing integration. Skilled in software tools and languages such as ArcGIS, QGIS, ERDAS Imagine, Python, Java, and C with proficiency in geospatial analysis techniques and information technology. Adept at utilizing geospatial tools and programming languages to create impactful solutions in areas such as environmental science, urban planning, data analysis, and software development.</p>
 

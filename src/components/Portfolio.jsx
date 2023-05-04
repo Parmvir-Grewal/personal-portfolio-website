@@ -95,14 +95,14 @@ const Portfolio = () => {
         <div name="portfolio" className="bg-slate-900 w-full h-screen sm:h-fit">
             <div className="max-w-7xl p-4 mx-auto flex flex-col justify-center w-full h-full sm:h-fit">
                 <div className="pb-8" >
-                    <p className="text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200">Portfolio</p>
-                    <p className='py-6 text-md text-slate-400'>Check out some of the projects I've worked on!</p>
+                    <p className="text-4xl font-bold inline border-b-4 border-slate-400 text-slate-200" data-aos='fade-up'>Portfolio</p>
+                    <p className='py-6 text-md text-slate-400' data-aos='fade-up'>Check out some of the projects I've worked on!</p>
                 </div>
-                <div className='grid sm:grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-8 px-12 sm:mb-0 mb-20 sm:px-0 overflow-auto' data-aos='fade-up'>
+                <div className='grid sm:grid-cols-2 lg:grid-cols-4 md:grid-cols-3 gap-8 px-12 sm:mb-0 mb-20 sm:px-0 overflow-auto' >
 
                     {
                         portfolios.map(({ id, src, title, description, href }) => (
-                            <div key={id} class="max-w-sm border border-slate-700 rounded-lg shadow bg-slate-800 backdrop-blur-md bg-slate-800/60  relative" >
+                            <div key={id} class="max-w-sm border border-slate-700 rounded-lg shadow bg-slate-800 backdrop-blur-md bg-slate-800/60  relative" data-aos='fade-up'>
 
                                 <img class="rounded-t-lg" src={src} alt="" width='px' />
 
